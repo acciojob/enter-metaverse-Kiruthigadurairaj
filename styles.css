@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+ body {
+	 background-color: white;
+	 font-size:40px;
+      margin: 10;
+      font-family: Arial, sans-serif;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: white;
+      color: black;
+    }
+    button {
+      margin-top: 20px ;
+      padding: 10px 10px ;
+      font-size: 16px;
+      border: 1px solid black;
+      color: black;
+	  background-color: light gray;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: lightgray;
+    }
